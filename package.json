@@ -1,5 +1,5 @@
 {
-  "name": "@jinx/ali-oss",
+  "name": "@wwavelet/ali-oss",
   "version": "0.2.0",
   "description": "ali-oss自定义使用工具",
   "main": "index.js",
