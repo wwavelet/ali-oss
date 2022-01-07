@@ -1,11 +1,8 @@
-## ali-oss工具
+## ali-oss
 
-适合多种oss场景
-
-* 清空bucket，上传所有
+use ali-oss api (deleteMulti, put, .etc) to remove all old files and upload all  new files
 
 ```
-$ jinx force --accessKeyId <accessKeyId> --accessKeySecret <accessKeySecret> --bucket <bucket> --region <region>
+$ cd <dirname>
+$ jinx-ali-oss -i <accessKeyId> -s <accessKeySecret> -b <bucket name> -r <region name>
 ```
-
-* 同名文件保留前一个hash文件

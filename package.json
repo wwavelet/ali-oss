@@ -17,7 +17,7 @@
   "homepage": "https://github.com/wwavelet/ali-oss",
   "author": "jinxiaobo",
   "bin": {
-    "jinx": "./bin/index.js"
+    "jinx-ali-oss": "./bin/index.js"
   },
   "dependencies": {
     "ali-oss": "^6.15.2",
